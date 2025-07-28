@@ -1,0 +1,101 @@
+/* Custom Navbar Styles */
+.navbar-custom {
+  color: #3b2f2f;
+}
+
+.navbar-custom .nav-link {
+  color: #3b2f2f;
+}
+
+.navbar-custom .nav-link.active {
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/hero-spa.png") no-repeat center center;
+  background-size: cover;
+  color: #ffebd4;
+  padding: 100px 0;
+}
+
+.hero-section h1 {
+  font-family: "Handlee", cursive;
+}
+
+/* Button Styles */
+.btn {
+  color: #3b2f2f;
+}
+
+/* Section Headings */
+.section-heading {
+  color: #3b2f2f;
+  font-family: "Handlee", cursive;
+}
+
+/* Services Cards */
+.service-card-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.service-card-title {
+  color: #3b2f2f;
+}
+
+.service-card-text {
+  color: #666;
+}
+
+/* Wellness Tips */
+.wellness-tips-intro {
+  color: #666;
+}
+
+.wellness-tip-label {
+  color: #3b2f2f;
+}
+
+.wellness-tip-text {
+  color: #666;
+}
+
+/* Testimonials */
+.testimonial-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.testimonial-text {
+  color: #666;
+}
+
+.testimonial-name {
+  color: #3b2f2f;
+}
+
+.carousel-inner-custom {
+  padding-bottom: 50px;
+}
+
+.carousel-control-invisible {
+  opacity: 0;
+}
+
+/* Footer */
+.footer-custom {
+  background-color: #6f4e37;
+}
+
+.footer-text {
+  color: #ffebd4;
+}
+
+.footer-social-link {
+  color: #ffebd4;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
