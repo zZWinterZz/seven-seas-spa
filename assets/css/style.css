@@ -174,83 +174,7 @@
   border-radius: 15px;
 }
 
-/* Thank You Page Styles */
-.thank-you-icon-wrapper {
-  width: 120px;
-  height: 120px;
-  background-color: #28a745;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  animation: pulse 2s infinite;
-}
-
-.thank-you-icon {
-  color: white;
-  font-size: 3rem;
-}
-
-.thank-you-message {
-  color: #666;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.thank-you-response-time {
-  color: #3b2f2f;
-  background-color: #f8f9fa;
-  padding: 15px 20px;
-  border-radius: 8px;
-  border-left: 4px solid #3b2f2f;
-}
-
-.thank-you-next-steps {
-  color: #666;
-  font-weight: 500;
-}
-
-.thank-you-actions .btn-outline-secondary {
-  border-color: #3b2f2f;
-  color: #3b2f2f;
-}
-
-.thank-you-actions .btn-outline-secondary:hover {
-  background-color: #3b2f2f;
-  border-color: #3b2f2f;
-  color: #ffebd4;
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-    box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.7);
-  }
-  70% {
-    transform: scale(1.05);
-    box-shadow: 0 0 0 10px rgba(40, 167, 69, 0);
-  }
-  100% {
-    transform: scale(1);
-    box-shadow: 0 0 0 0 rgba(40, 167, 69, 0);
-  }
-}
-
 /* About Page Styles */
-.about-intro {
-  color: #666;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.about-text {
-  color: #666;
-  font-weight: 500;
-  line-height: 1.7;
-  margin-bottom: 1.5rem;
-}
-
 .team-card-img {
   height: 250px;
   object-fit: cover;
@@ -259,14 +183,4 @@
   height: 200px;
   margin: 20px auto 15px auto;
   display: block;
-}
-
-.team-role {
-  color: #6f4e37;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.values-item {
-  padding: 20px;
 }
